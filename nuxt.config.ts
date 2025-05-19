@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  modules: ["@nuxt/image"],
   app: {
     head: {
       // fonts are referenced from https://fonts.google.com/selection/embed
